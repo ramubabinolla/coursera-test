@@ -1,0 +1,113 @@
+body{
+  background-color: #E0F8F1;
+}
+h1 {
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  color:red;
+  font-size: 35px;
+}
+*{
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+div {
+  position: relative;
+  background-color:#F5F6CE;
+  float: left;
+  margin:0 auto;
+}
+.m1{
+  float: right;
+  border:1px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: 0px;
+  padding: 8px;
+
+  background-color:#BCF5A9;
+  font-size: 25px;
+
+}
+.m2{
+  float: right;
+  border:1px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: 0px;
+  padding: 8px;
+  background-color: #F4FA58;
+  font-size: 25px;
+
+}
+.m3{
+  float: right;
+  border:1px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: 0px;
+  padding: 8px;
+  background-color: #F5A9F2;
+  font-size: 25px;
+
+}
+p{
+  clear: both;
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+#p1{
+  margin-top: 50px;
+}
+#p2{
+  margin-top: 50px;
+}
+#p3{
+  margin-top: 50px;
+}
+
+/*for tablets*/
+  
+  @media(min-width: 768px) and (max-width:991px)
+  {
+    .class-md-6 {
+      width: 45%;
+      float: left;
+      border:1px solid black;
+      margin: 1%;
+  }
+
+    .class-md-12{
+      width: 92%;
+      float: left;
+      border:1px solid black;
+      margin:1%;
+    }
+  } 
+  
+  /*for desktop*/
+
+  @media (min-width: 992px)
+  {
+  .class-lg-3{
+    width: 31%;
+    float: left;
+    border:1px solid black;
+    margin: 1%;
+        }
+  }
+
+  /*for mobile devices*/
+  @media(max-width: 767px)
+  {
+    .class-sd-12{
+      width: 90%;
+      float: left;
+      border:1px solid black;
+      margin:1%;
+    }
+  }
